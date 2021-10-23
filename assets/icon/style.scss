@@ -1,0 +1,175 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?47vvqi');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?47vvqi#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?47vvqi') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?47vvqi') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?47vvqi##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-slack {
+  &:before {
+    content: $icon-slack; 
+  }
+}
+.icon-bitbucket {
+  &:before {
+    content: $icon-bitbucket; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-gitlab {
+  &:before {
+    content: $icon-gitlab; 
+  }
+}
+.icon-stack-overflow {
+  &:before {
+    content: $icon-stack-overflow; 
+  }
+}
+.icon-git {
+  &:before {
+    content: $icon-git; 
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github; 
+  }
+}
+.icon-messenger {
+  &:before {
+    content: $icon-messenger; 
+  }
+}
+.icon-skype {
+  &:before {
+    content: $icon-skype; 
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-whatsapp {
+  &:before {
+    content: $icon-whatsapp; 
+  }
+}
+.icon-brand {
+  &:before {
+    content: $icon-brand; 
+  }
+}
+.icon-social {
+  &:before {
+    content: $icon-social; 
+  }
+}
+.icon-fiverr {
+  &:before {
+    content: $icon-fiverr; 
+  }
+}
+.icon-upwork {
+  &:before {
+    content: $icon-upwork; 
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail; 
+  }
+}
+.icon-clear {
+  &:before {
+    content: $icon-clear; 
+  }
+}
+.icon-money {
+  &:before {
+    content: $icon-money; 
+  }
+}
+.icon-person {
+  &:before {
+    content: $icon-person; 
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share; 
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-star; 
+  }
+}
+.icon-star_empty {
+  &:before {
+    content: $icon-star_empty; 
+  }
+}
+.icon-done {
+  &:before {
+    content: $icon-done; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-card_travel {
+  &:before {
+    content: $icon-card_travel; 
+  }
+}
+.icon-copyright {
+  &:before {
+    content: $icon-copyright; 
+  }
+}
+.icon-east {
+  &:before {
+    content: $icon-east; 
+  }
+}
+
